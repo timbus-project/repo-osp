@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <default remote="opensourceprojects" sync-c="true" sync-j="4" />
-  <project name="git/p/timbus/dpes/preservation-console" path="dpes/preservation-console" revision="master" />
-  <project name="git/p/timbus/dpes/preservation-manager" path="dpes/preservation-manager" revision="master" />
-  <project name="git/p/timbus/dpes/redeployment-manager" path="dpes/redeployment-manager" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/server" path="dpes/preservation-identifier/server" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/client" path="dpes/preservation-identifier/client" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/knowledge-base" path="dpes/preservation-identifier/knowledge-base" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/kbgen" path="dpes/preservation-identifier/kbgen" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/kblib" path="dpes/preservation-identifier/kblib" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/owl-api-facade" path="dpes/preservation-identifier/owl-api-facade" revision="master" />
-  <project name="git/p/timbus/domain/llm" path="domain/llm" revision="master" />
-  <project name="git/p/timbus/risk/risk-eval-treat" path="risk/risk-eval-treat" revision="master" />
-  <project name="git/p/timbus/context-model/dependencies-solver" path="context-model/dependencies-solver" revision="master" />
   <project name="git/p/timbus/context-model/ontology-visualisation" path="context-model/ontology-visualisation" revision="master" />
   <project name="git/p/timbus/context-model/repo" path="context-model/repo" revision="master" />
   <project name="git/p/timbus/context-model/converters/archi2owl" path="context-model/converters/archi2owl" revision="master" />
@@ -29,7 +23,6 @@
   <project name="git/p/timbus/context-population/extractors/ldclient" path="context-population/extractors/ldclient" revision="master" />
   <project name="git/p/timbus/context-population/extractors/linux-hw" path="context-population/extractors/linux-hw" revision="master" />
   <project name="git/p/timbus/context-population/extractors/windows-dll/local" path="context-population/extractors/windows-dll/local" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/windows-dll/remote" path="context-population/extractors/windows-dll/remote" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/debian-sw" path="context-population/extractors/local/debian-sw" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/users-extractor-perl" path="context-population/extractors/local/users-extractor-perl" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/perl-modules" path="context-population/extractors/local/perl-modules" revision="master" />

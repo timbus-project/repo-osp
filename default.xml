@@ -15,6 +15,8 @@
   <project name="git/p/timbus/context-model/converters/json-xml/linux-hw-converter" path="context-model/converters/json-xml/linux-hw-converter" revision="master" />
   <project name="git/p/timbus/context-model/converters/json-xml/deb-converter" path="context-model/converters/json-xml/deb-converter" revision="master" />
   <project name="git/p/timbus/context-model/converters/json-xml/dspace-converter" path="context-model/converters/json-xml/dspace-converter" revision="master" />
+  <project name="git/p/timbus/context-model/converters/json-xml/local/debian-sw" path="context-model/converters/json-xml/local/debian-sw" revision="master" />
+  <project name="git/p/timbus/context-model/converters/json-xml/local/linux-hw" path="context-model/converters/json-xml/local/linux-hw" revision="master" />
   <project name="git/p/timbus/context-population/extraction-manager" path="context-population/extraction-manager" revision="master" />
   <project name="git/p/timbus/context-population/extractors-core" path="context-population/extractors-core" revision="master" />
   <project name="git/p/timbus/context-population/extractors/wrapper-ssh" path="context-population/extractors/wrapper-ssh" revision="master" />
@@ -31,5 +33,6 @@
   <project name="git/p/timbus/context-population/extractors/local/users-extractor-perl" path="context-population/extractors/local/users-extractor-perl" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/perl-modules" path="context-population/extractors/local/perl-modules" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/network-info-perl" path="context-population/extractors/local/network-info-perl" revision="master" />
+  <project name="git/p/timbus/context-population/extractors/local/linux-hardware" path="context-population/extractors/local/linux-hardware" revision="master" />
   <remote name="opensourceprojects" fetch="http://opensourceprojects.eu" />
 </manifest>

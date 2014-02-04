@@ -18,5 +18,5 @@
   <project name="git/p/timbus/context-population/extractors/local/perl-modules" path="context-population/extractors/local/perl-modules" />
   <project name="git/p/timbus/context-population/extractors/local/network-info-perl" path="context-population/extractors/local/network-info-perl" />
   <project name="git/p/timbus/context-population/extractors/local/linux-hardware" path="context-population/extractors/local/linux-hardware" />
-  <remote name="opensourceprojects" fetch="http://opensourceprojects.eu" />
+  <remote name="opensourceprojects" fetch="http://opensourceprojects.eu" revision="refs/heads/*" />
 </manifest>

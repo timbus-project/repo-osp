@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <default remote="opensourceprojects" sync-c="true" sync-j="4" />
-  <project name="git/p/timbus/context-population/extraction-manager" path="context-population/extraction-manager" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/wrapper-ssh" path="context-population/extractors/wrapper-ssh" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/debian-software" path="context-population/extractors/debian-software" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/dspace" path="context-population/extractors/dspace" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/itop-extractor" path="context-population/extractors/itop-extractor" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/ldap" path="context-population/extractors/ldap" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/ldclient" path="context-population/extractors/ldclient" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/linux-hw" path="context-population/extractors/linux-hw" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/windows-dll/local" path="context-population/extractors/windows-dll/local" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/local/debian-sw" path="context-population/extractors/local/debian-sw" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/local/users-extractor-perl" path="context-population/extractors/local/users-extractor-perl" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/local/perl-modules" path="context-population/extractors/local/perl-modules" revision="master" />
-  <project name="git/p/timbus/context-population/extractors/local/network-info-perl" path="context-population/extractors/local/network-info-perl" revision="master" />
+  <project name="git/p/timbus/context-population/extraction-manager" path="context-population/extraction-manager"/>
+  <project name="git/p/timbus/context-population/extractors-core" path="context-population/extractors-core" />
+  <project name="git/p/timbus/context-population/extractors/wrapper-ssh" path="context-population/extractors/wrapper-ssh" />
+  <project name="git/p/timbus/context-population/extractors/debian-software" path="context-population/extractors/debian-software" />
+  <project name="git/p/timbus/context-population/extractors/dspace" path="context-population/extractors/dspace" />
+  <project name="git/p/timbus/context-population/extractors/itop-extractor" path="context-population/extractors/itop-extractor" />
+  <project name="git/p/timbus/context-population/extractors/ldap" path="context-population/extractors/ldap" />
+  <project name="git/p/timbus/context-population/extractors/d2rq" path="context-population/extractors/d2rq" />
+  <project name="git/p/timbus/context-population/extractors/plain" path="context-population/extractors/plain" />
+  <project name="git/p/timbus/context-population/extractors/ldclient" path="context-population/extractors/ldclient" />
+  <project name="git/p/timbus/context-population/extractors/linux-hw" path="context-population/extractors/linux-hw" />
+  <project name="git/p/timbus/context-population/extractors/windows-dll/local" path="context-population/extractors/windows-dll/local" />
+  <project name="git/p/timbus/context-population/extractors/local/debian-sw" path="context-population/extractors/local/debian-sw" />
+  <project name="git/p/timbus/context-population/extractors/local/users-extractor-perl" path="context-population/extractors/local/users-extractor-perl" />
+  <project name="git/p/timbus/context-population/extractors/local/perl-modules" path="context-population/extractors/local/perl-modules" />
+  <project name="git/p/timbus/context-population/extractors/local/network-info-perl" path="context-population/extractors/local/network-info-perl" />
+  <project name="git/p/timbus/context-population/extractors/local/linux-hardware" path="context-population/extractors/local/linux-hardware" />
   <remote name="opensourceprojects" fetch="http://opensourceprojects.eu" />
 </manifest>

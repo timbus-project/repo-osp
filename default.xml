@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="opensourceprojects" sync-c="true" sync-j="4" />
+  <default remote="opensourceprojects" sync-j="4" />
   <project name="git/p/timbus/dev" path="dev" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/server" path="dpes/preservation-identifier/server" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/client" path="dpes/preservation-identifier/client" revision="master" />

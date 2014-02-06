@@ -49,9 +49,19 @@ sub init {
 			push (@{$self->{urls}}, $new_url);
 		}
 
-		while($html =~m/\/(.*?)\/\"\sclass=\"ui\-icon\-tool\-git/g) {
+		while($html =~ m/\/(.*?)\/\"\sclass=\"ui\-icon\-tool\-git/g) {
 			my $git_repo = "git/" . $1;
-			push (@{$self->{gits}}, $git_repo);
+			my $git_get_url = $self->{domain} . "/$1/";
+			my $git_url = get($git_get_url);
+			my $empty = 0;
+
+			if ($git_url =~ m/No\s\(more\)\scommits/g) {
+				$empty = 1;
+			}
+
+			if (!$empty) {
+				push (@{$self->{gits}}, $git_repo);
+			}
 		}
 	}
 

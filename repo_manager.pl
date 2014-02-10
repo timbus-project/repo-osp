@@ -27,7 +27,7 @@ use Manager::Crawler;
 
 my $manager = Manager::Manager->new();
 
-$manager->addremote("opensourceprojects", "http://opensourceprojects.eu");
+$manager->addremote("opensourceprojects", "https://opensourceprojects.eu");
 
 my $crawler = Manager::Crawler->new("http://opensourceprojects.eu/p/timbus", "http://opensourceprojects.eu");
 $crawler->init();

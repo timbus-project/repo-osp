@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <default remote="opensourceprojects" sync-j="4" />
-  <project name="git/p/timbus/dev" path="dev" revision="master" />
+  <project name="git/p/timbus/support/maven-parents" path="support/maven-parents" revision="master" />
+  <project name="git/p/timbus/support/repo" path="support/repo" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/server" path="dpes/preservation-identifier/server" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/client" path="dpes/preservation-identifier/client" revision="master" />
   <project name="git/p/timbus/dpes/preservation-identifier/knowledge-base" path="dpes/preservation-identifier/knowledge-base" revision="master" />
@@ -17,8 +18,9 @@
   <project name="git/p/timbus/context-model/converters/json-xml/dspace-converter" path="context-model/converters/json-xml/dspace-converter" revision="master" />
   <project name="git/p/timbus/context-model/converters/json-xml/local/debian-sw" path="context-model/converters/json-xml/local/debian-sw" revision="master" />
   <project name="git/p/timbus/context-model/converters/json-xml/local/linux-hw" path="context-model/converters/json-xml/local/linux-hw" revision="master" />
-  <project name="git/p/timbus/context-population/extraction-manager" path="context-population/extraction-manager" revision="master" />
+  <project name="git/p/timbus/context-population/context-population-gui" path="context-population/context-population-gui" revision="master" />
   <project name="git/p/timbus/context-population/extractors-core" path="context-population/extractors-core" revision="master" />
+  <project name="git/p/timbus/context-population/extraction-manager" path="context-population/extraction-manager" revision="master" />
   <project name="git/p/timbus/context-population/extractors/wrapper-ssh" path="context-population/extractors/wrapper-ssh" revision="master" />
   <project name="git/p/timbus/context-population/extractors/debian-software" path="context-population/extractors/debian-software" revision="master" />
   <project name="git/p/timbus/context-population/extractors/dspace" path="context-population/extractors/dspace" revision="master" />
@@ -34,5 +36,5 @@
   <project name="git/p/timbus/context-population/extractors/local/perl-modules" path="context-population/extractors/local/perl-modules" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/network-info-perl" path="context-population/extractors/local/network-info-perl" revision="master" />
   <project name="git/p/timbus/context-population/extractors/local/linux-hardware" path="context-population/extractors/local/linux-hardware" revision="master" />
-  <remote name="opensourceprojects" fetch="http://opensourceprojects.eu" />
+  <remote name="opensourceprojects" fetch="https://opensourceprojects.eu" />
 </manifest>
